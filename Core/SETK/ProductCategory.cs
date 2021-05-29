@@ -15,10 +15,10 @@ namespace LabParserSet_k.Core.SETK
         // Название большой категории - свойство
         public string Name { get; }
         // Подкотегории - каталоги товаров
-        public List<ProductCatalog> productCatalogs { get; }
+        public ProductCatalog[] productCatalogs { get; }
 
         // Конструктор класса
-        public ProductCategory(string name, List<ProductCatalog> ProductCatalogs) {
+        public ProductCategory(string name, params ProductCatalog[] ProductCatalogs) {
             Name = name;
             productCatalogs = ProductCatalogs;
         }
