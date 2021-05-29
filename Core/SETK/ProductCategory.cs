@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace LabParserSet_k.Core.SETK
+﻿namespace LabParserSet_k.Core.SETK
 {
     /// <summary>
     /// Класс описывает большие категории товаров, 

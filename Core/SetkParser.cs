@@ -3,7 +3,6 @@ using AngleSharp.Html.Dom;
 using LabParserSet_k.Core.SETK;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 

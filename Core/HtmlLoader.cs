@@ -4,7 +4,6 @@ using System.Net.Http;
 using AngleSharp.Html.Parser;
 using AngleSharp.Html.Dom;
 using System.Windows.Forms;
-using System.Threading;
 
 namespace LabParserSet_k.Core
 {

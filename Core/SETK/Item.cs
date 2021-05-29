@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Text;
-
-namespace LabParserSet_k.Core.SETK
+﻿namespace LabParserSet_k.Core.SETK
 {
     class Item
     {
