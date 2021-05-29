@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AngleSharp" Version="0.15.0" />
+    <PackageReference Include="AngleSharp" Version="0.14.0" />
     <PackageReference Include="SQLite" Version="3.13.0" />
   </ItemGroup>
 

@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Text;
 
-namespace LabParserSet_k.Core.SETK
-{
-    class Item
+namespace LabParserSet_k.Core.SETK { 
+    interface IItemInfo
     {
         // Поля - - - - - - - - - - - - -
         // Название товара
@@ -15,13 +13,6 @@ namespace LabParserSet_k.Core.SETK
         // Ссылка на страницу товара
         public string Link { get; }
         // Ссылка на изображение товара
-        public string ImageLink { get; }        
-        // Конструктор
-        public Item(string name, string cost, string link, string imageLink) {
-            Name = name;
-            Cost = cost;
-            Link = link;
-            ImageLink = imageLink;
-        }
+        public string ImageLink { get; }
     }
 }
